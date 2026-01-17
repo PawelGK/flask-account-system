@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Account System</title>
+    <style>
+        body {
+            background: #1e1e2f;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .box {
+            background: #2a2a40;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 5px;
+        }
+        button {
+            padding: 8px 15px;
+            background: #5c7cfa;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        a {
+            color: #91a7ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
